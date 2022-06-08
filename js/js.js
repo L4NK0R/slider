@@ -34,14 +34,15 @@ function slide(event){
 function gotoA1(){
     slideshowpolotno.style.transition = "0s";
     transcount = -600;
-    slideshowpolotno.style.transform = `translate(${transcount}%)`
+    slideshowpolotno.style.transform = `translate(${transcount}%)`;
+    count = 5;
     setTimeout(function(){slideshowpolotno.style.transition = "1s"},100);
 }
 
 function gotoA6(){
     slideshowpolotno.style.transition = "0s";
     transcount = -100;
-    slideshowpolotno.style.transform = `translate(${transcount}%)`
+    slideshowpolotno.style.transform = `translate(${transcount}%)`;
     count = 0;
     setTimeout(function(){slideshowpolotno.style.transition = "1s"},100)
 }
